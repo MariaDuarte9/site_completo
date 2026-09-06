@@ -2,7 +2,7 @@ body{
     min-height:100vh;
     display:flex;
     flex-direction:column;
-    background-image:url(../imagens/grifo2.png);
+    background-image:url(../grifo2.png);
     background-size:cover;
     background-position-x:center;
     background-repeat:no-repeat;
