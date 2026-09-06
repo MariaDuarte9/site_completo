@@ -1,0 +1,151 @@
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-image:url(../imagens/grifo2.png);
+    background-size:cover;
+    background-position-x:center;
+    background-repeat:no-repeat;
+    overflow-x:hidden;
+}
+
+    main{
+    flex:1;
+    margin-bottom:50px;
+}
+
+.principal{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:65px;
+    padding:30px 5%;
+    box-sizing:border-box;
+}
+
+.coluna1{
+    flex:1;
+    padding:20px;
+    border:2px solid #333;
+    border-radius:10px;
+    background-color:#f5f5f52d;
+    box-sizing:border-box;
+    transition:0.3s;
+}
+
+.img-text{
+    width:100%;
+    display:flex;
+    align-items:flex-start;
+    gap:25px;
+    padding:0 5%;
+    box-sizing:border-box;
+}
+
+.coluna2{
+    flex:1;
+    padding:15px;
+    margin:0;
+    border:2px solid #333;
+    border-radius:10px;
+    background-color:#f5f5f52d;
+    box-sizing:border-box;
+    transition:0.3s;
+}
+
+.coluna2 p{
+    font-size:16px;
+    line-height:1.4;
+}
+
+.coluna3{
+    flex:0 0 40%;
+    padding:15px;
+    border:2px solid #333;
+    border-radius:10px;
+    background-color:#f5f5f52d;
+    box-sizing:border-box;
+}
+
+.coluna3 img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.coluna1:hover,.coluna2:hover,.coluna3:hover{
+    transform:scale(1.03);
+    box-shadow:0 8px 20px rgba(116,115,115,0.25);
+}
+
+h1{
+    font-size:4em;
+    color:rgb(0,0,0);
+}
+
+h2{
+    font-size:2.5em;
+    color:rgb(0,0,0);
+}
+
+h3{
+    text-align:left;
+    font-family:Georgia,'Times New Roman',Times,serif;
+    color:rgb(2,0,0);
+    font-size:2em;
+}
+
+p{
+    font-size:20px;
+    font-family:Georgia,'Times New Roman',Times,serif;
+    color:rgb(0,0,0);
+    text-align:justify;
+}
+
+hr{
+    border:none;
+    height:3px;
+    background-color:rgb(0,0,0);
+    width:80%;
+    margin:40px auto;
+}
+
+a{
+    color:rgb(0,0,0);
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    margin-top:150px;
+    border-top:1px solid rgb(0,0,0);
+    bottom:0;
+    left:0;
+    width:100%;
+    display:flex;
+}
+
+footer section{
+    flex:1;
+}
+
+footer p{
+    color:white;
+    text-align:center;
+    margin:5px;
+}
+
+#centralizado{
+    text-align:center;
+}
+
+#imagem{
+    justify-content:end;
+    height:100px;
+    width:100px;
+}
+
+#turma{
+    width:30%;
+}
